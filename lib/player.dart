@@ -105,7 +105,7 @@ class _PlayerState extends State<Player> {
     // Initialize and set up player when the screen is loaded
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       final routes = ModalRoute.of(context)?.settings.arguments as Map<String, int>;
-      i = routes?["index"];
+      i = routes["index"];
       if (i != null) {
         await setAudio();
       }
