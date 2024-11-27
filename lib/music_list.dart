@@ -12,7 +12,7 @@ class _MusicListState extends State<MusicList> {
     {
       "thumbnail":
           "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/Akhiyan Udeek Diyan.mp3",
+      "path": "music/1.mp3",
       "name": "Ankhiya Udeek dia!",
       "movie": "Shidath",
       "genera": "Heart Break"
@@ -20,7 +20,7 @@ class _MusicListState extends State<MusicList> {
     {
       "thumbnail":
           "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/ANIMAL_ ARJAN VAILLY.mp3",
+      "path": "music/2.mp3",
       "name": "Arjan Vailly!",
       "movie": "Animal",
       "genera": "Motivation"
@@ -28,7 +28,7 @@ class _MusicListState extends State<MusicList> {
     {
       "thumbnail":
           "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/ANIMAL_SAARI DUNIYA JALAA DENGE.mp3",
+      "path": "music/3.mp3",
       "name": "Saari Duniya",
       "movie": "Animal",
       "genera": "Emotion"
@@ -36,7 +36,7 @@ class _MusicListState extends State<MusicList> {
     {
       "thumbnail":
           "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/ANIMAL_SATRANGA.mp3",
+      "path": "music/4.mp3",
       "name": "Satranga",
       "movie": "Animal",
       "genera": "Romance"
@@ -44,7 +44,7 @@ class _MusicListState extends State<MusicList> {
     {
       "thumbnail":
           "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/Barbaadiyan.mp3",
+      "path": "music/5.mp3",
       "name": "Barbadiya",
       "movie": "Shidat",
       "genera": "Party"
@@ -52,7 +52,7 @@ class _MusicListState extends State<MusicList> {
     {
       "thumbnail":
           "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/Chal Tere Ishq Mein.mp3",
+      "path": "music/6.mp3",
       "name": "Chal tere ishq main",
       "movie": "Gaddar 2",
       "genera": "Romance"
@@ -60,7 +60,7 @@ class _MusicListState extends State<MusicList> {
     {
       "thumbnail":
           "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/Kar Har Maidaan Fateh .mp3",
+      "path": "music/7.mp3",
       "name": "Kar Har Maidan Fateh",
       "movie": "Sanju",
       "genera": "Motivation"
@@ -68,8 +68,7 @@ class _MusicListState extends State<MusicList> {
     {
       "thumbnail":
           "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path":
-          "assets/music/Shiddat Title Track (Full Video) Sunny Kaushal,Radhika Madan, Mohit Raina, Diana P  Manan Bhardwaj.mp3",
+      "path": "music/8.mp3",
       "name": "Shiddat",
       "movie": "Shidath",
       "genera": "Romance"
@@ -77,96 +76,15 @@ class _MusicListState extends State<MusicList> {
     {
       "thumbnail":
           "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/Tum Kya Mile.mp3",
-      "name": "Tum Jo Mila",
+      "path": "music/9.mp3",
+      "name": "Tum Kya Mila",
       "movie": "Rockey aur Rani",
       "genera": "Romance"
     },
     {
       "thumbnail":
           "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/Ve Kamleya.mp3",
-      "name": "Ve Kamleya",
-      "movie": "Rockey aur Rani",
-      "genera": "Romance"
-    },
-    {
-      "thumbnail":
-          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/Akhiyan Udeek Diyan.mp3",
-      "name": "Ankhiya Udeek dia!",
-      "movie": "Shidath",
-      "genera": "Heart Break"
-    },
-    {
-      "thumbnail":
-          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/ANIMAL_ ARJAN VAILLY.mp3",
-      "name": "Arjan Vailly!",
-      "movie": "Animal",
-      "genera": "Motivation"
-    },
-    {
-      "thumbnail":
-          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/ANIMAL_SAARI DUNIYA JALAA DENGE.mp3",
-      "name": "Saari Duniya",
-      "movie": "Animal",
-      "genera": "Emotion"
-    },
-    {
-      "thumbnail":
-          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/ANIMAL_SATRANGA.mp3",
-      "name": "Satranga",
-      "movie": "Animal",
-      "genera": "Romance"
-    },
-    {
-      "thumbnail":
-          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/Barbaadiyan.mp3",
-      "name": "Barbadiya",
-      "movie": "Shidat",
-      "genera": "Party"
-    },
-    {
-      "thumbnail":
-          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/Chal Tere Ishq Mein.mp3",
-      "name": "Chal tere ishq main",
-      "movie": "Gaddar 2",
-      "genera": "Romance"
-    },
-    {
-      "thumbnail":
-          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/Kar Har Maidaan Fateh .mp3",
-      "name": "Kar Har Maidan Fateh",
-      "movie": "Sanju",
-      "genera": "Motivation"
-    },
-    {
-      "thumbnail":
-          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path":
-          "assets/music/Shiddat Title Track (Full Video) Sunny Kaushal,Radhika Madan, Mohit Raina, Diana P  Manan Bhardwaj.mp3",
-      "name": "Shiddat",
-      "movie": "Shidath",
-      "genera": "Romance"
-    },
-    {
-      "thumbnail":
-          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/Tum Kya Mile.mp3",
-      "name": "Tum Jo Mila",
-      "movie": "Rockey aur Rani",
-      "genera": "Romance"
-    },
-    {
-      "thumbnail":
-          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
-      "path": "assets/music/Ve Kamleya.mp3",
+      "path": "music/10.mp3",
       "name": "Ve Kamleya",
       "movie": "Rockey aur Rani",
       "genera": "Romance"
@@ -216,8 +134,8 @@ class _MusicListState extends State<MusicList> {
                           children: [
                             Text(
                               songs[index]["name"],
-                              style:
-                                  const TextStyle(color: Colors.pink, fontSize: 20),
+                              style: const TextStyle(
+                                  color: Colors.pink, fontSize: 20),
                             ),
                             Text(
                               songs[index]["movie"],
@@ -231,9 +149,10 @@ class _MusicListState extends State<MusicList> {
                       backgroundColor: const Color.fromARGB(255, 242, 196, 211),
                       child: IconButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, "/player");
+                          Navigator.pushNamed(context, "/player",
+                              arguments: {'index': index});
                         },
-                        icon: Icon(
+                        icon: const Icon(
                           Icons.play_circle_fill,
                           color: Colors.pink,
                         ),
