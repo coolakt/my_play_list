@@ -9,11 +9,10 @@ class Player extends StatefulWidget {
 }
 
 class _PlayerState extends State<Player> {
-
   List songs = [
     {
       "thumbnail":
-      "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
+          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
       "path": "music/1.mp3",
       "name": "Ankhiya Udeek dia!",
       "movie": "Shidath",
@@ -21,7 +20,7 @@ class _PlayerState extends State<Player> {
     },
     {
       "thumbnail":
-      "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
+          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
       "path": "music/2.mp3",
       "name": "Arjan Vailly!",
       "movie": "Animal",
@@ -29,7 +28,7 @@ class _PlayerState extends State<Player> {
     },
     {
       "thumbnail":
-      "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
+          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
       "path": "music/3.mp3",
       "name": "Saari Duniya",
       "movie": "Animal",
@@ -37,7 +36,7 @@ class _PlayerState extends State<Player> {
     },
     {
       "thumbnail":
-      "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
+          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
       "path": "music/4.mp3",
       "name": "Satranga",
       "movie": "Animal",
@@ -45,7 +44,7 @@ class _PlayerState extends State<Player> {
     },
     {
       "thumbnail":
-      "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
+          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
       "path": "music/5.mp3",
       "name": "Barbadiya",
       "movie": "Shidat",
@@ -53,7 +52,7 @@ class _PlayerState extends State<Player> {
     },
     {
       "thumbnail":
-      "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
+          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
       "path": "music/6.mp3",
       "name": "Chal tere ishq main",
       "movie": "Gaddar 2",
@@ -61,7 +60,7 @@ class _PlayerState extends State<Player> {
     },
     {
       "thumbnail":
-      "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
+          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
       "path": "music/7.mp3",
       "name": "Kar Har Maidan Fateh",
       "movie": "Sanju",
@@ -69,7 +68,7 @@ class _PlayerState extends State<Player> {
     },
     {
       "thumbnail":
-      "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
+          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
       "path": "music/8.mp3",
       "name": "Shiddat",
       "movie": "Shidath",
@@ -77,7 +76,7 @@ class _PlayerState extends State<Player> {
     },
     {
       "thumbnail":
-      "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
+          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
       "path": "music/9.mp3",
       "name": "Tum Kya Mila",
       "movie": "Rockey aur Rani",
@@ -85,7 +84,7 @@ class _PlayerState extends State<Player> {
     },
     {
       "thumbnail":
-      "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
+          "https://e7.pngegg.com/pngimages/779/964/png-clipart-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-thumbnail.png",
       "path": "music/10.mp3",
       "name": "Ve Kamleya",
       "movie": "Rockey aur Rani",
@@ -104,7 +103,8 @@ class _PlayerState extends State<Player> {
     super.initState();
     // Initialize and set up player when the screen is loaded
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      final routes = ModalRoute.of(context)?.settings.arguments as Map<String, int>;
+      final routes =
+          ModalRoute.of(context)?.settings.arguments as Map<String, int>;
       i = routes["index"];
       if (i != null) {
         await setAudio();
@@ -173,7 +173,7 @@ class _PlayerState extends State<Player> {
                 ),
               ),
               SizedBox(
-                height: 50,
+                height: 25,
               ),
               Slider(
                 min: 0,
